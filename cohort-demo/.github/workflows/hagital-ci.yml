@@ -1,0 +1,21 @@
+name: demo-ci
+
+on:
+  push:
+    branches: [ main ]
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Say What
+        run: |
+          echo "Hello from the other sideeeed"
+          echo "I wanna see the world"
+<<<<<<< HEAD
+          echo "Wetin you dey talk, fuck shit"
+=======
+          echo "Wetin you dey talk"
+>>>>>>> 70313dff453beca335adfd7a5fbe6a827e4bf734
