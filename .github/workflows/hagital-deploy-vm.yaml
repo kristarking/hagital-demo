@@ -74,5 +74,5 @@ jobs:
 
       - name: Show the live website URL
         run: |
-          echo "hagital website is live!" >> $GITHUB_STEP_SUMMARY
+          echo "Hagital website is live!" >> $GITHUB_STEP_SUMMARY
           echo "Visit: http://${{ needs.provision.outputs.vm_ip}}" >> $GITHUB_STEP_SUMMARY
