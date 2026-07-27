@@ -1,6 +1,7 @@
 name: Hagital VM Deploy
  
 on:
+  workflow_dispatch:
 jobs:
   provision:
     runs-on: ubuntu-latest
